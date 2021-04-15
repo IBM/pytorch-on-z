@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# PyTorch for IBM Z and LinuxONE
 
-You can use the [editor on GitHub](https://github.com/CODAIT/pytorch-on-z/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This page hosts [PyTorch](https://pytorch.org) prebuilt packages for
+[IBM Z](https://www.ibm.com/it-infrastructure/z) and
+[LinuxONE](https://www.ibm.com/it-infrastructure/linuxone). This project is still in its beta phase,
+and any feedback is welcome.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation
 
-### Markdown
+To install the latest package, for Python 3.6, run:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.8.1-cp36-cp36m-linux_s390x.whl
 
-```markdown
-Syntax highlighted code block
+For Python 3.8, run:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CODAIT/pytorch-on-z/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.8.1-cp38-cp38-linux_s390x.whl
