@@ -1,2 +1,3 @@
 theme: jekyll-theme-primer
 title: Prebuilt PyTorch Packages for IBM Z and LinuxONE
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
