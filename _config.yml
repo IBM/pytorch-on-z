@@ -1,3 +1,2 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-primer
 title: Prebuilt PyTorch Packages for IBM Z and LinuxONE
-description:
