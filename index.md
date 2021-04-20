@@ -1,4 +1,6 @@
 ---
+layout: home
+---
 This is [IBM CODAIT](http://codait.org)'s [PyTorch](https://pytorch.org) prebuilt packages for
 [IBM Z](https://www.ibm.com/it-infrastructure/z) and
 [LinuxONE](https://www.ibm.com/it-infrastructure/linuxone). Our build is currently minimal and
