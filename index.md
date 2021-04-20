@@ -1,5 +1,5 @@
 ---
-This page hosts [PyTorch](https://pytorch.org) prebuilt packages for
+This is [IBM CODAIT](http://codait.org)'s [PyTorch](https://pytorch.org) prebuilt packages for
 [IBM Z](https://www.ibm.com/it-infrastructure/z) and
 [LinuxONE](https://www.ibm.com/it-infrastructure/linuxone). Our build is currently minimal and
 supports CPU only. This project is still in its beta phase, and any feedback is welcome.
