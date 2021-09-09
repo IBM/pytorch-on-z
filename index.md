@@ -29,11 +29,11 @@ compiler.
 
 To install the latest package, for Python 3.6, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.8.1-cp36-cp36m-linux_s390x.whl
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.8.2-cp36-cp36m-linux_s390x.whl
 
 For Python 3.8, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.8.1-cp38-cp38-linux_s390x.whl
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.8.2-cp38-cp38-linux_s390x.whl
 
 ## Known Issues
 
@@ -52,7 +52,7 @@ We built the packages as follows on RHEL 8 on LinuxONE.
 
         $ git clone --recursive https://github.com/pytorch/pytorch.git
         $ cd pytorch
-        $ git checkout v1.8.1
+        $ git checkout v1.8.2
         $ git submodule update --recursive
 
 1. Install dependencies:
