@@ -41,7 +41,7 @@ For Python 3.9, run:
 
 ## Known Issues
 
-Not all tests for the C++ library can pass.
+Not all tests for the C++ library can pass for PyTorch version 1.8.1 and 1.8.2.
 
 ## How We Built These Packages
 
