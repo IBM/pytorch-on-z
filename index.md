@@ -29,15 +29,15 @@ compiler.
 
 To install the latest package, for Python 3.6, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.9.0-cp36-cp36m-linux_s390x.whl
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.10.0-cp36-cp36m-linux_s390x.whl
 
 For Python 3.8, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.9.0-cp38-cp38-linux_s390x.whl
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.10.0-cp38-cp38-linux_s390x.whl
 
 For Python 3.9, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.9.0-cp39-cp39-linux_s390x.whl
+    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.10.0-cp39-cp39-linux_s390x.whl
 
 ## Known Issues
 
@@ -56,7 +56,7 @@ We built the packages as follows on RHEL 8 on LinuxONE.
 
         $ git clone --recursive https://github.com/pytorch/pytorch.git
         $ cd pytorch
-        $ git checkout v1.9.0
+        $ git checkout v1.10.0
         $ git submodule update --recursive
 
 1. Install dependencies:
@@ -66,7 +66,7 @@ We built the packages as follows on RHEL 8 on LinuxONE.
 
 1. Run the build commands:
 
-        $ DEBUG=0 CMAKE_EXPORT_COMPILE_COMMANDS=YES USE_OPENMP=0 USE_DISTRIBUTED=0 USE_MKLDNN=0 USE_NCCL=0 USE_CUDA=0 USE_PYTORCH_QNNPACK=0 USE_XNNPACK=0 USE_QNNPACK=0 USE_NNPACK=0 USE_QNNPACK=0 USE_FBGEMM=0 BUILD_TEST=1 USE_NUMA=OFF python3 setup.py develop --cmake-only
+        $ DEBUG=0 CMAKE_EXPORT_COMPILE_COMMANDS=YES USE_BREAKPAD=0 USE_OPENMP=1 USE_DISTRIBUTED=0 USE_MKLDNN=0 USE_NCCL=0 USE_CUDA=0 USE_PYTORCH_QNNPACK=0 USE_XNNPACK=0 USE_QNNPACK=0 USE_NNPACK=0 USE_QNNPACK=0 USE_FBGEMM=0 BUILD_TEST=0 USE_NUMA=OFF python3 setup.py develop --cmake-only
         $ MAX_JOBS=1 python setup.py develop
 
 1. Run the tests:
