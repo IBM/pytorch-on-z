@@ -29,15 +29,15 @@ compiler.
 
 To install the latest package, for Python 3.6, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.10.0-cp36-cp36m-linux_s390x.whl
+    $ pip install https://github.com/IBM/pytorch-on-z/raw/packages/torch-1.10.0-cp36-cp36m-linux_s390x.whl
 
 For Python 3.8, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.10.0-cp38-cp38-linux_s390x.whl
+    $ pip install https://github.com/IBM/pytorch-on-z/raw/packages/torch-1.10.0-cp38-cp38-linux_s390x.whl
 
 For Python 3.9, run:
 
-    $ pip install https://github.com/CODAIT/pytorch-on-z/raw/packages/torch-1.10.0-cp39-cp39-linux_s390x.whl
+    $ pip install https://github.com/IBM/pytorch-on-z/raw/packages/torch-1.10.0-cp39-cp39-linux_s390x.whl
 
 ## Known Issues
 
